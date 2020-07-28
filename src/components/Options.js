@@ -1,8 +1,7 @@
 import React from 'react';
 import Option from './Option';
 
-const Options = (props) => {
-    return(
+const Options = (props) => (
       <div>
         <ol>
         {
@@ -19,5 +18,4 @@ const Options = (props) => {
       {props.options.length === 0 && <p>Please add an option to get started</p>}
       </div>
     )
-  }
 export default Options;
